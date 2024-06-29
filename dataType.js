@@ -18,7 +18,6 @@ console.log(Unique);
 let Course = {
       nAme : "hashara",
       age : 10
-
 }
 
 console.log(Color);
