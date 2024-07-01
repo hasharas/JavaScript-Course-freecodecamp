@@ -15,6 +15,40 @@ let num2=11;
 // const AgeType = age > 10 ? true : false;
 // console.log(AgeType);
 
-let Name = 100;
-const NameNew = Name > 110 ? 'correct' : 'wrong';
-console.log(NameNew);
+// let Name = 100;
+// const NameNew = Name > 110 ? 'correct' : 'wrong';
+// console.log(NameNew);
+
+// || or
+// && and
+// ! not 
+// ?? null coalescing 
+
+// console.log(true || true);
+// console.log(true || false);
+// console.log(false || true);
+// console.log(false || false);
+
+// let HaveName=true;
+// let NoName = false;
+// const BothName = HaveName || NoName;
+// console.log(BothName);
+
+// console.log(true && true);
+// console.log(true && false);
+// console.log(false && true);
+// console.log(false && false);
+
+// let car = 'name';
+// let HasCar =true;
+// const CarIs = car >= 'name' && HasCar;
+// console.log(CarIs);
+
+// let ISsunday = true;
+// const NotSunday = !ISsunday;
+// console.log(NotSunday);
+
+let a = false;
+//const Marks = a ?? false;
+const Marks = (a !== false && a !== undefined) ? a : false;
+console.log(Marks);
