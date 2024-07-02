@@ -11,6 +11,8 @@ let num2=11;
 // const nuMequ = num1<num2;
 // console.log(nuMequ);
 
+
+
 // let age = 18;
 // const AgeType = age > 10 ? true : false;
 // console.log(AgeType);
@@ -48,7 +50,13 @@ let num2=11;
 // const NotSunday = !ISsunday;
 // console.log(NotSunday);
 
-let a = false;
-//const Marks = a ?? false;
-const Marks = (a !== false && a !== undefined) ? a : false;
-console.log(Marks);
+// let a = false;
+// //const Marks = a ?? false;
+// const Marks = (a !== false && a !== undefined) ? a : false;
+// console.log(Marks);
+
+let NewCol ;
+let OldCol = 'blue';
+
+const Default = NewCol || OldCol;
+console.log(Default);
