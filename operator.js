@@ -71,12 +71,13 @@ let num2=11;
 //       console.log('ganan wadi yakoooo...');
 // }
 
-let Hour = 1;
+// let Hour = 1;
 
-if(Hour >= 6 && Hour <= 10){
-      console.log('kapan yakoo..')
-}else if(Hour >= 11 && Hour <= 13){
-      console.log("Payakin kapan dn..")
-} else{
-      console.log("kapan hetaa..")
-}
+// if(Hour >= 6 && Hour <= 10){
+//       console.log('kapan yakoo..')
+// }else if(Hour >= 11 && Hour <= 13){
+//       console.log("Payakin kapan dn..")
+// } else{
+//       console.log("kapan hetaa..")
+// }
+
