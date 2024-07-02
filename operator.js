@@ -55,8 +55,17 @@ let num2=11;
 // const Marks = (a !== false && a !== undefined) ? a : false;
 // console.log(Marks);
 
-let NewCol ;
-let OldCol = 'blue';
+// let NewCol ;
+// let OldCol = 'blue';
 
-const Default = NewCol || OldCol;
-console.log(Default);
+// const Default = NewCol || OldCol;
+// console.log(Default);
+
+let Ihave = 110.89;
+let Price = 230.67;
+
+const Buy = Ihave >= Price ;
+if(Buy){
+      console.log
+}
+
