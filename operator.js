@@ -61,11 +61,22 @@ let num2=11;
 // const Default = NewCol || OldCol;
 // console.log(Default);
 
-let Ihave = 110.89;
-let Price = 230.67;
+// let Ihave = 110.89;
+// let Price = 230.67;
 
-const Buy = Ihave >= Price ;
-if(Buy){
-      console.log
+// const Buy = Ihave >= Price ;
+// if(Buy){
+//       console.log('yes gaththa yakoooo...');
+// }else{
+//       console.log('ganan wadi yakoooo...');
+// }
+
+let Hour = 1;
+
+if(Hour >= 6 && Hour <= 10){
+      console.log('kapan yakoo..')
+}else if(Hour >= 11 && Hour <= 13){
+      console.log("Payakin kapan dn..")
+} else{
+      console.log("kapan hetaa..")
 }
-
