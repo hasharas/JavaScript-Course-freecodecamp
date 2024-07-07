@@ -30,18 +30,26 @@ let number = [1,2,3,4,5,6,7];
 // console.log('Even numbers:', evenNumbers);
 // console.log('Odd numbers:', oddNumbers);
 
+// let numbers = [1, 2, 4, 5, 6, 8, 7];
+
+// let evenNumbers = [];
+// let oddNumbers = [];
+
+// numbers.map(number => {
+//     if (number % 2 === 0) {
+//         evenNumbers.push(number);
+//     } else {
+//         oddNumbers.push(number);
+//     }
+// });
+
+// console.log('Even numbers:', evenNumbers);
+// console.log('Odd numbers:', oddNumbers);
+
 let numbers = [1, 2, 4, 5, 6, 8, 7];
 
-let evenNumbers = [];
-let oddNumbers = [];
-
-numbers.map(number => {
-    if (number % 2 === 0) {
-        evenNumbers.push(number);
-    } else {
-        oddNumbers.push(number);
-    }
-});
+let evenNumbers = numbers.filter(number => number % 2 === 0);
+let oddNumbers = numbers.filter(number => number % 2 !== 0);
 
 console.log('Even numbers:', evenNumbers);
-console.log('Odd numbers:', oddNumbers);
+console.log('Odd numbers:', oddNumbers)
