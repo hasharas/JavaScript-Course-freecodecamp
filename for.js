@@ -17,12 +17,13 @@
 //       ind+=2;
 // }
 
-let sum = 0;
+// let sum = 0;
 
-while(true){
-      console.log('looop ...');
-      sum++;
-      if(sum === 10)
-            break;
+// while(true){
+//       console.log('looop ...');
+//       sum++;
+//       if(sum === 10)
+//             break;
       
-}
+// }
+
